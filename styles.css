@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Barlow&family=Gloria+Hallelujah&family=Montserrat&family=Patrick+Hand&family=Permanent+Marker&family=Trispace&display=swap');
+body{
+    text-align: center;
+    background-color: rgb(223, 198, 198);
+    font-family: 'Barlow', sans-serif;
+    font-size: larger;
+}
+
+.container{
+    backGround-color: blueviolet;
+    width: 400px;
+}
+label{
+
+    margin: auto;
+    padding: 1rem 0rem;
+}
+#input-date{
+    margin: auto;
+    margin: 1rem 0rem;
+    width: 90%;
+    padding: 1rem;
+}
+#btn-show{
+    background-color:rgb(224, 116, 238) ;
+    width: 80%;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 0.5rem;
+    
+    border-radius: 10px;
+    border-color: rgb(165, 10, 144);
+    font-family: 'Montserrat', sans-serif;
+    font-size: larger;
+}
+#output-message{
+    text-align: center;
+    padding: 1rem;
+    
+}
