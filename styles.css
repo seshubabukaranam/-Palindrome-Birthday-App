@@ -7,9 +7,10 @@ body{
 }
 
 .container{
-    
-    backGround-color: blueviolet;
-    width: 400px;
+
+   
+    width: 500px;
+    margin: auto;
 }
 label{
 
@@ -19,12 +20,12 @@ label{
 #input-date{
     margin: auto;
     margin: 1rem 0rem;
-    width: 90%;
+    width: 80%;
     padding: 1rem;
 }
 #btn-show{
     background-color:rgb(224, 116, 238) ;
-    width: 80%;
+    width: 60%;
     padding: 1rem;
     margin: auto;
     margin-top: 0.5rem;

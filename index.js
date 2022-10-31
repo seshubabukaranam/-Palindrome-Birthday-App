@@ -7,6 +7,8 @@ btnShow.addEventListener("click",clickHandler)
 function clickHandler(event){
 
     var birthdayStr =  inputDate.value;
+
+    if( birthdayStr !== ''){
     var listOfDate = birthdayStr.split('-');
     var date = {
 
@@ -14,7 +16,7 @@ function clickHandler(event){
         month : Number(listOfDate[1]),
         year  : Number(listOfDate[0])
     }
-
+    }
     var isPalindrome = cheakPalindromeForAllDates(date);
 
         if(isPalindrome)
